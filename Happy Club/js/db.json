@@ -1,0 +1,242 @@
+{
+  "members": [
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Ranjeet",
+        "last": "Thakur"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "ranjeethakur@gmail.com",
+      "phone": "123456789",
+      "designation": "President",
+      "photo": "img/Ranjeet Thakur.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Prakash",
+        "last": "Thakur"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "Prakashthakur@gmail.com",
+      "phone": "123456789",
+      "designation": "Secretery",
+      "photo": "img/Prakash Thakur.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Rajeev",
+        "last": "Ranjan"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "rajeevranjan@gmail.com",
+      "phone": "123456789",
+      "designation": "Adviser",
+      "photo": "img/Rajeev Ranjan.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Rakesh",
+        "last": "Kumar"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "rkkumar6247@gmail.com",
+      "phone": "123456789",
+      "designation": "Technial Department",
+      "photo": "img/Rakesh Kumar.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Rahul",
+        "last": "Thakur"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "rhlkumarthakur@gmail.com",
+      "phone": "123456789",
+      "designation": "Organizer",
+      "photo": "img/Rahul Thakur.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Rohit",
+        "last": "Kumar"
+      },
+      "address": "Chaukhandi, Morbey",
+      "email": "kumarrohit0153@gmail.com",
+      "phone": "123456789",
+      "designation": "Cameraman",
+      "photo": "img/Rohit Kumar.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Rajesh",
+        "last": "Thakur"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "rajeshthakur@gmail.com",
+      "phone": "123456789",
+      "designation": "Senior Member",
+      "photo": "img/Rajesh Thakur.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Vikash",
+        "last": "Thakur"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "vikashthakur@gmail.com",
+      "phone": "123456789",
+      "designation": "Senior Member",
+      "photo": "img/Vikash Thakur.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Anup",
+        "last": "Thakur"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "anupthakur@gmail.com",
+      "phone": "123456789",
+      "designation": "Senior Member",
+      "photo": "img/Anup Thakur.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Pankaj",
+        "last": "Thakur"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "pkjkumarthakur@gmail.com",
+      "phone": "123456789",
+      "designation": "Member",
+      "photo": "img/Pankaj Thakur.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Nitesh",
+        "last": "Kumar"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "niteshkumar@gmail.com",
+      "phone": "123456789",
+      "designation": "Member",
+      "photo": "img/Nitesh Kumar.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Dipu",
+        "last": "Thakur"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "kumardipu@gmail.com",
+      "phone": "123456789",
+      "designation": "Member",
+      "photo": "img/Dipu Thakur.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "Nitish",
+        "last": "Thakur"
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "nitishthakur@gmail.com",
+      "phone": "123456789",
+      "designation": "Member",
+      "photo": "img/Nitish Thakur.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr.",
+        "first": "vkskumarhthakur",
+        "last": ""
+      },
+      "address": "Devi Mandir Road, Morbey",
+      "email": "vkskumarhthakur@gmail.com",
+      "phone": "123456789",
+      "designation": "Member",
+      "photo": "img/vkskumarthakur.jpg",
+      "social_media": {
+        "facebook": "...........",
+        "twitter": "......",
+        "instagram": "......"
+      }
+    }
+  ]
+}

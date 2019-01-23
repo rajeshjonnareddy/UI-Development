@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MembersApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/mdb.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="img/happy%20club%20logo.png" rel="icon">
+    <title>Welcome to Happy Club...</title>
+</head>
+<body ng-controller="MembersAppCtrl as ctrl">
+<nav class="navbar navbar-expand-sm bg-primary fixed-top">
+    <a class="navbar-brand text-white nav-link" href="index.html">
+        <img src="img/happy%20club%20logo.png" width="80" height="80">
+        <span class="font-weight-bold px-2">Happy Club</span>
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+        <span><i class="fa fa-bars text-white"></i></span>
+    </button>
+    <!--Menus-->
+    <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto px-5">
+            <li class="nav-item px-1 animated fadeInRightBig">
+                <a href="index.html" class="nav-link text-white"><i class="fa fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item px-1 animated fadeInLeftBig">
+                <a href="members.html" class="nav-link active text-white"><i class="fa fa-users"></i> Members</a>
+            </li>
+            <li class="nav-item px-1 animated fadeInRightBig">
+                <a href="events.html" class="nav-link text-white"><i class="fa fa-video"></i> Events</a>
+            </li>
+            <li class="nav-item px-1 animated fadeInLeftBig">
+                <a href="about.html" class="nav-link text-white"><i class="fa fa-id-card"></i> About</a>
+            </li>
+            <li class="nav-item px-1 animated fadeInRightBig">
+                <a href="gallery.html" class="nav-link text-white"><i class="fa fa-images"></i>Gallery</a>
+            </li>
+            <li class="nav-item px-1 animated fadeInLeftBig">
+                <a href="contact.html" class="nav-link text-white"><i class="fa fa-envelope"></i> Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--Main Here-->
+<section class="mt-2">
+    <div class="container">
+        <div class="row">
+            <div class="col col-md text-center">
+                <h3 class="mt-10">Happy Club Family</h3><hr class="bg-primary w-50">
+            </div>
+        </div>
+    </div>
+</section>
+<!--Members Here-->
+<div>
+    <div class="row mx-2 mt-5 animated fadeInDownBig">
+        <div class="col-md-2  col-sm-1">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/RAVINDRA%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                    <div class="card-body m-0 p-0 mt-2">
+                        <h5 class="text-center font-weight-bold"> Mr.Ravindra</h5>
+                    </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#ravindra-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/RAKESH%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Rakesh</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#rakesh-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/VIKAS%20HAPPY.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Vikas</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#vikas-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/RAHUL%20HAPPY.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Rahul</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#rahul-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/BIKASH%20HAPPY.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Vikash</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#vikash-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/ANUP%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Anup</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#anup-modal">view Profile</a>
+            </div>
+        </div>
+    </div>
+    <div class="row mx-2 mt-5 animated fadeInUpBig">
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/RAM%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Ram Ashray</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#ram-modal" get>view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/ROHIT%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Rohit</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#rohit-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/PANKAJ%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Pankaj</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#pankaj-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/NITESH%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Nitesh</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#nitesh-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/NIRAJ%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Niraj</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#niraj-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/GUDDU%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Guddu</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#guddu-modal">view Profile</a>
+            </div>
+        </div>
+    </div>
+    <div class="row mx-2 mt-5 animated fadeInUpBig">
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/LAW%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Law</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#law-modal" get>view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/ANUJ%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Anuj</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#anuj-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/OM%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Om</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#om-modal">view Profile</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-title m-0 p-0 text-center">
+                    <img src="img/DIPU%20HAPPY%20copy.jpg" class="w-50 rounded-circle img-thumbnail img-fluid img-top">
+                </div>
+                <div class="card-body m-0 p-0 mt-2">
+                    <h5 class="text-center font-weight-bold"> Mr.Dipu</h5>
+                </div>
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#dipu-modal">view Profile</a>
+            </div>
+        </div>
+</div>
+
+<!===================Modales here================================>
+
+<!--Ramu Modal-->
+<div class="container">
+    <div class="modal" id="ramu-modal">
+        <div class="modal-dialog">
+            <div class="modal-content animated">
+                <div class="modal-header bg-primary ">
+                    <h3 class="font-weight-bold text-white"> Mr. Pankaj Thakur</h3>
+
+                <button class="close" data-dismiss="modal">
+                    <i class="fa fa-window-close text-white"></i>
+                </button>
+            </div>
+            <div class="modal-title text-center">
+                <img src="img/RAMU%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+            </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Senior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 8146765568<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!==============Rakesh Modal=================>
+<div class="container">
+    <div class="modal" id="rakesh-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Rakesh Kumar</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/RAKESH%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp  w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Technician & Designer</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 8002506247<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!============Vikas Modal======================>
+<div class="container">
+    <div class="modal" id="vikas-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Vikas Kumar Thakur</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/VIKAS%20HAPPY.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Senior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 9798485648<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="https://www.facebook.com/vkskumarthakur" target="_blank"><i class="fab fa-facebook-f mx-2 text-dark"></i></a></a>
+                         <a href="https://www.twitter.com/vkskumarthakur" target="_blank"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="https://www.instagram.com/vkskumarthakur" target="_blank"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Rohit Modal-->
+<div class="container">
+    <div class="modal" id="rohit-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr. Rohit Kumar </h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/ROHIT%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp  w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Cameraman</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 9006320153<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Vikash Modal-->
+<div class="container">
+    <div class="modal" id="vikash-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Vikash Kumar Thakur</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/BIKASH%20HAPPY.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp  w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Senior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 8340323469<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Anup Modal-->
+<div class="container">
+    <div class="modal" id="anup-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Anup Kumar Thakur</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/ANUP%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp  w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Senior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 9714819174<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Ram Modal-->
+<div class="container">
+    <div class="modal" id="ram-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Ram Ashray </h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/RAM%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle w-50 animated fadeInUp ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Senior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 9996847355<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Rahul Modal-->
+<div class="container">
+    <div class="modal" id="rahul-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Rahul Kumar Thakur</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/RAHUL%20HAPPY.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Senior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 8409768834<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Pankaj Modal-->
+<div class="container">
+    <div class="modal" id="pankaj-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Pankaj Kumar Thakur</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/PANKAJ%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Junior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 7091034141<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Nitesh Modal-->
+<div class="container">
+    <div class="modal" id="nitesh-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Nitesh Kumar</h3>
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/NITESH%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Junior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 8226812591<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Niraj Modal-->
+<div class="container">
+    <div class="modal" id="niraj-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Niraj Kumar</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/NIRAJ%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Cameraman</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 9199105004<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Ravindra Modal-->
+<div class="container">
+    <div class="modal" id="ravindra-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Ravindra Kumar</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/RAVINDRA%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Senior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> ...<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Guddu Modal-->
+<div class="container">
+    <div class="modal" id="guddu-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Guddu Kumar</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/GUDDU%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Senior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 8292983267<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Law Modal-->
+<div class="container">
+    <div class="modal" id="law-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Law Kumar</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/LAW%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Junior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 9931836768<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Anuj Modal-->
+<div class="container">
+    <div class="modal" id="anuj-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Anuj Kumar</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/ANUJ%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Junior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 9135799326<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Om Modal-->
+<div class="container">
+    <div class="modal" id="om-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Om Prakash</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/OM%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Junior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 8709487787<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Dipu Modal-->
+<div class="container">
+    <div class="modal" id="dipu-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h3 class="font-weight-bold text-white"> Mr.Dipu Kumar</h3>
+
+                    <button class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close text-white"></i>
+                    </button>
+                </div>
+                <div class="modal-title text-center">
+                    <img src="img/DIPU%20HAPPY%20copy.jpg" class="img-fluid img-thumbnail rounded-circle animated fadeInUp w-50 ">
+                </div>
+                <hr class="bg-primary">
+                <div class="modal-body text-center">
+                    <h5>Member Of The Club</h5>
+                    <h5>Role:-<span class="text-primary">Junior Member</span> </h5>
+                    <i class="fa fa-mobile text-primary"></i> , <i class="fab fa-whatsapp text-success"></i> 6202978883<br>
+                    <h5 class="float-left mt-3">Social Connect:-</h5>
+                    <span class="float-right mt-3">
+                        <a href="#"><i class="fab fa-facebook-f mx-2 text-dark"></i></a>
+                         <a href="#"><i class="fab fa-twitter mx-2 text-dark"></i></a>
+                     <a href="#"><i class="fab fa-instagram mx-2 text-dark"></i></a>
+                    </span>
+                </div>
+                <div class="modal-footer bg-primary">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer Section-->
+<footer class="bg-primary text-white text-center p-5 mt-3">
+    <h3>&copy; Happy Club 2014-18</h3>
+    <p>Developed By <a href="https://www.instagram.com/vkskumarthakur" target="_blank">
+        <span class="text-warning"><i class="fa fa-user-circle"></i> vkskumarthakur</span></a></p>
+</footer>
+
+
+
+
+
+<!--JQuery and javascript files-->
+<script src="js/fontawesome-all.js"></script>
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mdb.min.js"></script>
+<script src="js/scrollreveal.js"></script>
+<script src="js/app.js"></script>
+<script src="js/angular.js"></script>
+<script src="js/scrollreveal.js"></script>
+
+
+
+</body>
+</html>

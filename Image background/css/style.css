@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin:0;
+    background:url("../img/girl photo.jpeg") fixed ;
+    background-size:cover;
+}
+.navshadow{
+    box-shadow:none;
+}
+.bg-blur{
+    background-color: rgba(0,0,0,0.5);
+}
+.mt-10{
+    margin-top: 150px;
+}
+
+li:hover{
+    background-color: #fec346;
+    border-radius: 15px;
+
+}
+.active{
+    background-color:#fec346 ;
+    border-radius:50px;
+
+}
+.border-radius{
+    border-radius: 15px;
+}
+.outline {
+    outline:none;
+}
+

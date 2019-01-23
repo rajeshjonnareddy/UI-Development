@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin:0;
+}
+.text-gray{
+    color:gray;
+}
+.bg-blur{
+    background-color: rgba(0,0,0,0.5);
+}
+.mt-10{
+    margin-top: 150px;
+}
+.opacity{
+    opacity: .8;
+}
+.opacity2{
+    opacity:.5;
+}
+.text-aqua{
+    color: aqua;
+}
+.font-Bungee{
+    font-family: 'Bungee', cursive;
+}
+.font-Satisfy{
+    font-family: 'Satisfy', cursive;
+}
+.font-ArchitectsDaughter{
+    font-family: 'Architects Daughter', cursive;
+}
+.mb-10{
+    margin-bottom: 150px;
+}
+.bg-aqua{
+    background-color:aqua;
+}
+.bg-gray{
+    background-color: gray;
+}
+.bg-dark-gray{
+    background-color:gray;
+}
+.p-flex:hover{
+    background-color:  #c8232c;
+    cursor: pointer;
+}
+.y-flex:hover{
+    background-color: #c4302b;
+    cursor: pointer;
+}
+.l-flex:hover{
+    background-color: #0077B5;
+    cursor: pointer;
+}
+.g-flex:hover{
+    background-color: #CC3333;
+    cursor: pointer;
+}
+.t-flex:hover{
+    background-color: #34526f;
+    cursor: pointer;
+}
+.i-flex:hover{
+    background-color: #c32aa3 ;
+    cursor: pointer;
+}
+.tw-flex:hover{
+    background-color: #1da1f2 ;
+    cursor: pointer;
+}
+.f-flex:hover{
+    background-color:#3b5998 ;
+    cursor: pointer;
+}
+
+
+
+
+
